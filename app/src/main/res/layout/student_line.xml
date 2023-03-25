@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textviewNameCustom"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textviewYearCustom"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewNameCustom"
+        android:text="Year Old"
+        android:textColor="#4CAF50"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textviewAddressCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewNameCustom"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:text="Address"
+        android:textColor="#090909"
+        android:textSize="20sp" />
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/imageViewEdit"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+    <ImageView
+        android:id="@+id/imageViewDelete"
+        android:layout_marginTop="12dp"
+        android:layout_toLeftOf="@id/imageViewEdit"
+        android:src="@android:drawable/ic_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
